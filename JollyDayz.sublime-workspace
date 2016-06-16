@@ -1,0 +1,280 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"cod",
+				"codebar"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Cod",
+				"codebarIsAwesome"
+			],
+			[
+				"wea",
+				"weatherIsAmazing"
+			],
+			[
+				"b",
+				"b"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index2.html",
+			"settings":
+			{
+				"buffer_size": 9152,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sydhausmann/_projects/JollyDayz2/index.html",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/Code Bar Tutorial 6/images/ada_lovelace.jpg",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/Code Bar Tutorial 6/untitled",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/HTML tutorial 5/index.html",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/HTML tutorial 4/index.html",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/HTML tutorial 4/css/style.css",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/HTML tutorial 3/example.html",
+		"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/HTML tutorial 3/css/style.css",
+		"/Users/sydhausmann/_projects/CodeBar/C++/test.cpp",
+		"/Users/sydhausmann/_projects/CodeBar/C++/HelloWorld.cpp",
+		"/Users/sydhausmann/_projects/CodeBar/Scavenger/examples/factual/styles/sewer-style.css",
+		"/Users/sydhausmann/_projects/Ruby/blog/app/views/articles/new.html.erb",
+		"/Users/sydhausmann/_projects/Ruby/blog/app/controllers/articles_controller.rb",
+		"/Users/sydhausmann/_projects/Ruby/blog/config/routes.rb",
+		"/Users/sydhausmann/_projects/Ruby/blog/app/views/welcome/index.html.erb",
+		"/Users/sydhausmann/_projects/CodeBar/codebar-javascript/index.html",
+		"/Users/sydhausmann/_projects/CodeBar/JS/rock.js",
+		"/Users/sydhausmann/_projects/CodeBar/codebar-javascript/script.js",
+		"/Users/sydhausmann/*PROJECTS/CodeBar/CodeAcademy/CodeAcademyTest.js",
+		"/Users/sydhausmann/_projects/CodeBar/JS/js-tests.js"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index2.html",
+					"settings":
+					{
+						"buffer_size": 9152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/sydhausmann/_projects/CodeBar/HTML & CSS/HTML tutorial 4/css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true
+}
