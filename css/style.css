@@ -390,7 +390,7 @@ text-align: center;
 
 /*STYLES*/
 h2.footer {
-	font-family: Pony; 
+	font-family: Pony, sans-serif; 
 	font-weight: normal; 
 	font-style: normal; 
     font-size: 120%;
@@ -400,6 +400,24 @@ h2.footer {
 
 p.footer2 {
 	color: white;
-	text-align: left;
+	text-align: center;
 	font-size: 85%;
+	margin-top: 10px;
+}
+
+.social-button {
+	width: 41px;
+	height: 41px;
+	margin-top: 10px;
+}
+
+a.sm1:hover {
+	text-align: left;
+    opacity: .5;
+    /*background-color: black;*/
+    display: inline-block;
+}
+
+.footerNew {
+	background: rgb(49, 49, 52);
 }
