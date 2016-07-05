@@ -28,7 +28,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
 	<script type="text/javascript" src="scripts/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="scripts/script.js"></script>
+	<script type="text/javascript" src="scripts/booking.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -98,12 +98,12 @@
 <!-- give the buttons an individual id and then give the form wrapper an id (if have a wrapper), then put class .hidden , then javascript $ jquery show / jquery hide / you can fade it in or out
  -->
 		 <div align="center">
-		    <a href="http://www.jollydayz.com/form1.html"="Half Jolly" /></a><input type="button" class="button_1" value="Half Jolly" /></a>
-		    <a href="http://www.jollydayz.com/form2.html"><input type="button" class="button_1" value="Full Jolly" /></a>
+<!-- 		    <a href="http://www.jollydayz.com/form1.html"="Book Now!" /></a> -->
+				<input id="book-button" type="button" class="button_1" value="Book Now!" />
 		</div>
 
 
-
+			<div id="form-wrapper" class="hidden">
 			<div id="container" class="ltr">
 
 				<form id="form2" name="form2" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
@@ -128,6 +128,40 @@
 			<input id="Field10" name="Field10" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="2" required />
 			</div>
 			</li>
+
+			<li id="foli415" class="     ">
+			<fieldset>
+			<![if !IE | (gte IE 8)]>
+			<legend id="title415" class="desc notranslate">
+			Pick your package
+			</legend>
+			<![endif]>
+			<!--[if lt IE 8]>
+			<label id="title415" class="desc">
+			Pick your package
+			</label>
+			<![endif]-->
+			<div>
+			<span class="subfield">
+			<input id="Field415" name="Field415" type="checkbox" class="field checkbox" value="Half Jolly &ndash; Gives you the freedom to test the local cuisine and experience life amongst the natives. Good luck with that!" tabindex="3"     />
+			<label class="choice" for="Field415">
+			<span class="choice__text notranslate" >HALF JOLLY </br> Gives you the freedom to test the local cuisine and experience life amongst the natives. Good luck with that!</span>
+			<span class="choice__qty">
+			</span>
+			</label>
+			</span>
+			<span class="subfield">
+			<input id="Field416" name="Field416" type="checkbox" class="field checkbox" value="Full Jolly &ndash; Allows you to indulge in uninterrupted JollyDayz fun and food without having to set foot outside the resort!" tabindex="4"     />
+			<label class="choice" for="Field416">
+			<span class="choice__text notranslate" >FULL JOLLY </br> Allows you to indulge in uninterrupted JollyDayz fun and food without having to set foot outside the resort!</span>
+			<span class="choice__qty">
+			</span>
+			</label>
+			</span>
+			</div>
+			</fieldset>
+			</li>
+			
 			<li id="foli11" class=" ">
 			<fieldset>
 			<!--[if !IE | (gte IE 8)]-->
@@ -154,6 +188,7 @@
 			</div>
 			</fieldset>
 			</li>
+
 			<li id="foli111" class="     ">
 			<fieldset>
 			<!-- <![if !IE | (gte IE 8)]> -->
@@ -178,6 +213,7 @@
 			</div>
 			</fieldset>
 			</li>
+			
 			<li id="foli211" class="     ">
 			<fieldset>
 			<!-- <![if !IE | (gte IE 8)]> -->
@@ -210,6 +246,7 @@
 			</div>
 			</fieldset>
 			</li>
+
 			<li id="foli311" class="     ">
 			<fieldset>
 			<!-- <![if !IE | (gte IE 8)]> -->
@@ -285,6 +322,7 @@
 
 		</div>
 	</div>
+	</div>
 
 	<div class="section" id="section3">
 		<div class="intro">
@@ -292,18 +330,53 @@
 			<p>At JollyDayz, we are not only dedicated to ensuring you have a good time but we are also passionately dedicated to our brand. That's why you'll find we only employee young, bubbly girls with smiles permanently plastered to their faces and whose names rhyme with jolly!</p>
 
 			<ul class="pictures image-container">
-			<li><img src="images/teamR.png" alt="Dolly"></li>
-			<li><img src="images/teamS.png" alt="Holly"></li>
-			<li><img src="images/teamT.png" alt="Molly"></li>
+			<li><figure>
+					<img src="images/teamR.png" alt="Dolly">
+					<figcaption class='captionTeam'>Jolly Dolly</figcaption>
+				</figure></li>
+			<li><figure>
+					<img src="images/teamS.png" alt="Holly">
+					<figcaption class='captionTeam'>Jolly Holly</figcaption>
+				</figure></li>
+			<li><figure>
+					<img src="images/teamT.png" alt="Molly">
+					<figcaption class='captionTeam'>Jolly Molly</figcaption>
+				</figure></li>
 			</ul>
+ 		</div>
+	</div>
 
-		</div>
-	</div>
-	<div class="section" id="section4">
+
+
+
+	<div class="section" id="section4" >
 		<div class="intro">
-			<h1>Contact!</h1>
+			<div id="pagewrapFoot">
+				<section id="contentFoot">
+					<h2 class="h2-footer">About us!
+					</h2>
+					<!-- <p class="intro-footer"> -->
+							<font color="white" size="3em" align="left">We are the organisation that fulfills your destination dreams. You may only be having a mini break, but we know you'll have mega fun!</font>
+						<!-- We are the organisation that fulfills your destination dreams. You may only be having a mini break, but we know you'll have mega fun! </p> -->
+				</section>
+				
+				<section id="middle">
+					<h2>Mega terms!</h2>
+					<p>Little blurb here and then the twitter icon.</p>
+				</section>
+
+				<aside id="sidebar">
+					<h2>Connect with us!</h2>
+					<p>Little blurb or just the twitter and phone number</p>
+					<p>Possibly a generic location and disclaimer that it is.</p>
+				</aside>
+			</div>
 		</div>
 	</div>
+
+	</div>
+
+
 
 </div>
 
